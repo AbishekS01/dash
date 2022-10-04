@@ -1,4 +1,4 @@
-# dash
+# Dash
 Databricks Notebook Rendering Issue: IPython.lib.display.IFram
 
 Step 1 
