@@ -2,8 +2,8 @@
 Databricks Notebook Rendering Issue: IPython.lib.display.IFram
 
 Step 1 
-
-Setthe Environment variables in Databricks cluster 
+------
+Set the Environment variables in Databricks cluster 
 
 For example : 
 
@@ -14,13 +14,13 @@ Cluster ID : 1004-091920-cpkidhkx
 Port number : 8888 
 
 Step 2 
-
+------
 Via Databricks notebook install the explainerdashboard
 
 %pip install explainerdashboard
 
 Step 3
-
+------
 Via databricks notebook run the below sample code 
 
 from sklearn.ensemble import RandomForestClassifier
@@ -46,7 +46,10 @@ ExplainerDashboard(explainer, mode = 'dash',
           shap_interaction=False,
           decision_trees=False).run(8888)
           
-Step : access the dashboard via web url 
+Step 4
+------
+
+Access the dashboard via web url 
 
 For example : https://xxxxxx.azuredatabricks.net/driver-proxy/o/4080082044612008/1004-091920-cpkidhkx/8888
 
