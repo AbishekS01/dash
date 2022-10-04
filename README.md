@@ -53,6 +53,6 @@ Access the dashboard via web url
 
 For example : https://xxxxxx.azuredatabricks.net/driver-proxy/o/4080082044612008/1004-091920-cpkidhkx/8888
 
-Workspace URL : https://xxxxxx.azuredatabricks.net/driver-proxy/o/<workspaceID>/<clusterID>/8888
+Workspace URL : https://xxxxxx.azuredatabricks.net/driver-proxy/o/workspaceID/clusterID/8888
 
 
